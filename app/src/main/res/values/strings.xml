@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">NASA Library</string>
+    <string name="no_message">No message</string>
+    <string name="yes">Yes</string>
+    <string name="hint_search">Search for...</string>
+    <string name="nothing">Nothing found</string>
+    <string name="search_hint">Search</string>
+    <string name="image_large">Image</string>
+    <string name="video_large">Video</string>
+    <string name="audio_large">Audio</string>
+    <string name="http">http</string>
+    <string name="pause">pause</string>
+    <string name="resume">resume</string>
+    <string name="stop">stop</string>
+    <string name="backward">backward</string>
+    <string name="forward">forward</string>
+    <string name="info">info</string>
+    <string name="images">Images</string>
+    <string name="videos">Videos</string>
+    <string name="audios">Audios</string>
+    <string name="search">Search</string>
+    <string name="unknown">unknown</string>
+    <string name="video_error">Video playback error</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="audio">audio</string>
+    <string name="error">Error</string>
+    <string name="video">video</string>
+    <string name="image">image</string>
+</resources>

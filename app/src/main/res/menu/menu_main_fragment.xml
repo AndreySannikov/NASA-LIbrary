@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+
+    <item
+        android:id="@+id/action_choice_image"
+        android:checkable="true"
+        android:title="@string/images"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_choice_video"
+        android:checkable="true"
+        android:title="@string/videos"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_choice_audio"
+        android:checkable="true"
+        android:title="@string/audios"
+        app:showAsAction="never" />
+</menu>

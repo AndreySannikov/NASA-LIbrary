@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="ru.degus.nasalibrary.fragments.MainFragment"
+        android:label="main_fragment"
+        tools:layout="@layout/main_fragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_imageFragment"
+            app:destination="@id/imageFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_videoFragment"
+            app:destination="@id/videoFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_audioFragment"
+            app:destination="@id/audioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/imageFragment"
+        android:name="ru.degus.nasalibrary.fragments.ImageFragment"
+        android:label="image_fragment"
+        tools:layout="@layout/image_fragment">
+    </fragment>
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="ru.degus.nasalibrary.fragments.VideoFragment"
+        android:label="VideoFragment" />
+    <fragment
+        android:id="@+id/audioFragment"
+        android:name="ru.degus.nasalibrary.fragments.AudioFragment"
+        android:label="AudioFragment" />
+</navigation>
